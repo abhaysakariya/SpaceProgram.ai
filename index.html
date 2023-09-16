@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>SPACE PROGRAM</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Kanit:ital,wght@1,300&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/ai.css">
+</head>
+
+<body oncontextmenu="return false">
+  <header>
+    <!-- navbar -->
+    <div class="navbar-div">
+      <img src="img/logo.png" alt="img/logo.png" class="logoimage">
+      <div class="company-name">
+        SPACE PROGRAM
+      </div>
+    </div>
+
+  </header>
+  
+  <div class="alert-container" id="alert-container" style="display:none;">
+    <div class="msg-div">
+      <p>Hey User..You Have Out Of Limit To Ask SPACEAI,  You Can Only Ask To The SPACEAI 3 Times.. Sign In Now To Get More Access. </p>
+    </div>
+    <div class="alert-btn-div">
+      <button type="button" class="alert-btn1" id="alert-btn1">SIGNIN</button>
+      <button type="button" class="alert-btn2" id="alert-btn2" onclick="closealert()">CLOSE</button>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  <div class="container">
+    
+ 
+  
+  <div class="main-ka-main-div">
+    
+    
+    
+    <div class="title-container">
+      <p class="title-p">SPACE AI</p>
+    </div>  
+   
+    <div class="ai-main-container">
+      
+      <div class="img-div">
+        <div src="img/ai1.gif" class="aiimage" alt=""></div>
+      </div>
+      <div class="what-is-ai">
+        
+      
+      <div class="what-is-ai-title">
+        WHAT is AI
+      </div>
+      <div class="what-is-ai-para">
+        Artificial intelligence is intelligence—perceiving, synthesizing, and inferring information—demonstrated by computers, as opposed to intelligence displayed by humans or by other animals. "Intelligence" encompasses the ability to learn and to reason, to generalize, and to infer meaning.
+      </div>
+      
+      </div>
+    </div>
+  </div>
+  </div>
+  
+    
+    <div class="about-spaceai-main-container">
+      <div class="about-spaceai-container">
+        <div class="about-spaceai-title">
+          <p>TRY SPACEAI</p>
+        </div>
+        <div class="about-spaceai-div">
+          <div class="chat-container">
+            <div class="chat-showarea" id="chat-showarea">
+              
+              
+              <div class="chat-bot">
+                <div class="chatbot-name">
+                  SPACE AI
+                </div>
+                <p id="chatbot-out" class="chatbot-out"> I'm SpaceAI, Your Creative And Helpful Friend Curious To Help You.<br />Now I Can Only Help You With The Programming Field.
+
+                </p>
+              </div>
+              
+              
+           
+            
+            
+
+            </div>
+              
+            
+            <div class="chat-textarea-btn">
+              <input type="text" placeholder="Start Typing" id="chat-input" class="chat-input">
+              <button type="button" id="chat-send-btn" onclick="add_function()">> Send</button>
+           
+            </div>
+          </div>
+          
+          
+          
+        </div>
+        
+       
+        
+        
+        
+        
+      </div>
+    </div>
+  
+   <div class="spaceai-note-div">
+         <p> *SPACEAI Is Now In Development Process.This May Generate Wrong Or Missing Output. The AI Is Learning Regularly To Become Better.</p>
+        </div>
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  <footer>
+
+    <!--   footer -->
+    <div class="footer">
+
+      <div class="footer-container">
+        <div class="contactus-container">
+          <br>
+          <p>Contact For Any Query</p>
+          <input type="input" placeholder="email@gmail.com" class="contactus-input" pattern="^[a-zA-Z0-9]+@gmail\.com$" required>
+          <br>
+          <textarea name="" id="" cols="31" rows="10" class="contactus-textarea" placeholder="Write Your Query Here" required></textarea>
+          <br>
+          <button type="button" class="contactus-submitbtn">SUBMIT</button>
+        </div>
+
+        <div class="links-container">
+          <h3 class="name-footer">SPACE AI</h3>
+          <div class="some-footer-links">
+          
+          <h5 style="margin-top: 20px; font-size: 25px;">- Some Useful Links -</h5>
+            <div class="useful-links">
+              <a href="">About Us</a>
+              <a href="">Software Programs Example</a>
+              <a href="">Software Projects</a>
+              <a href="">SpaceAI</a>
+              <a href="">SignIn</a>
+            </div>
+            
+            
+            <h5 style="margin-top: 20px; font-size: 25px;">- Follow Me -</h5>
+            <div class="useful-links">
+              <a href="https://www.linkedin.com/in/abhay-sakariya-b293ab23b">LinkedIn</a>
+              <a href="https://instagram.com/abhaysakariya_?igshid=MzNlNGNkZWQ4Mg==">Instagram</a>
+           
+            </div>
+            
+            
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <div class="copyright-status">
+          Created By/Copyright ©️ To Abhay Sakariya
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </footer>
+
+  <!-- Project -->
+  <script src="js/ai.js"></script>
+
+</body>
+
+</html>
